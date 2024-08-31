@@ -1,0 +1,5 @@
+- hosts: myhosts
+
+    - debug: var=ansible_facts
+
+    - ping: ~
